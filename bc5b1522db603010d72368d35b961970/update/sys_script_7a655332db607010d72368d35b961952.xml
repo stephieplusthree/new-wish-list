@@ -30,7 +30,7 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 	// Add your code here
-	current.display_name = current.item + " (" + current.requester.name + ")";
+	current.display_name = current.item + " (" + current.quantity + ") - " + current.requester.name;
 
 })(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
@@ -39,15 +39,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7a655332db607010d72368d35b961952</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Populate Display name</sys_name>
         <sys_overrides/>
         <sys_package display_value="New Wish Lists" source="x_558880_new_wish">bc5b1522db603010d72368d35b961970</sys_package>
         <sys_policy/>
         <sys_scope display_value="New Wish Lists">bc5b1522db603010d72368d35b961970</sys_scope>
         <sys_update_name>sys_script_7a655332db607010d72368d35b961952</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2021-06-09 00:42:51</sys_updated_on>
+        <sys_updated_by>carol.coughlin</sys_updated_by>
+        <sys_updated_on>2021-06-09 00:54:18</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
